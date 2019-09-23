@@ -14,57 +14,25 @@ h2{
 	background-color: #ff0000;
 	color: #00ff00;
 	font-size: 50px;
-	/*
-	font-size = ability to change the size of fonts
-	- usually specified in px
-	you may also encounter: ems, rems - they are
-	"variable" units of measure 
-	*/
+	
 }
-
+h3 { 
+	font-size: 1.5em;  
+	color: #6F777D; 
+	margin: 0;
+}
 p{
 	font-weight: bold;
-	/*
-	font-weight = ability to make text bold, will
-	also serve as our ability to select fonr varients
-	with embedded fonts
-	*/
-
 	font-style: italic;
-	/*
-	font-style = ability to make text italic
-	*/
-
 	font-family: arial;
-	/*
-	font-family = ability to select which font is
-	being used
-	"web safe fonts" - fonts that are on every device,
-	regardless of operating system or manufacturer
-
-	serif - have "ornaments" or decorations
-	more formal/traditional - times new roman, georgia
-
-	sans serif - no ornaments/decorations
-	more causal/mordern (95% of the web)
-	- arial, verdana, tahoma
-	*/
-
 	text-align: center;
-	/* ability to change how text "aligns"
-	right, center, left(default)
-	*/
-
 	text-decoration: underline;
-	/* 
-	adds/removes "decorations"
-	unferline, strikethrough, overline
-	*/
-
 	text-transform: capitalize;
-	/*
-	ability to change the "case" of text: uppercase,
-	lowercase, capitalize
-	*/
-
 }
+table {
+	width: 100%; 
+	margin: 0 auto;
+}
+  tr {padding: 5px;}
+  td {padding: 5px;}
+  th {text-align: left;}
