@@ -1,0 +1,49 @@
+
+body{
+    font-family: "Source Sans Pro", sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.site-header{
+    background-color: #333333;
+    color: #ffffff;
+}
+.row{
+    display: flex;
+}
+.col{
+    flex: 1;
+}
+.part{
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+header {
+    background: #333;
+    color: #fff;
+}
+
+.colmain{
+    flex: 1;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+div.header {
+    padding: 5px;
+}
+
+div.header p {
+    margin: 0;
+}
+
+div.header h1 {
+    margin: 5px 0;
+}
