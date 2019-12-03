@@ -1,64 +1,107 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <title> IST263 Project </title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-        <nav>
-            <div class="nava">
-            <h1 class="logo">Coffee</h1><!---not yet design our logo-->
-            <ul class="naul">
-                <li><a href="Home.html">HOME</a></li>
-                <li><a href="Coffee.html">Coffee</a></li>
-                <li><a href="CoffeeBean.html">Coffee Bean</a></li>
-                <li><a href="Ways.html">Ways</a></li>
-            </ul>
-            </div>
-        </nav>
-        </header>
+<!DOCTYPE html>
+<html  class="bg">
+<head>
+	<title>index</title>
+	<meta charset="utf-8" />
+	<link href="./css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <main>
-            <section>
-                <div class="sec1">
-                    <div class="row">
-                        <div class="col"><!--left side-->
-                        <article>
-                            <h2 class="name">Overview</h2>
-                            <p class="text">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species. The genus Coffea is native to tropical Africa (specifically having its origin in Ethiopia and Sudan) and Madagascar, the Comoros, Mauritius, and Réunion in the Indian Ocean. Coffee plants are now cultivated in over 70 countries. Once ripe, coffee berries are picked, processed, and dried. Dried coffee seeds are roasted to varying degrees, depending on the desired flavor. Roasted beans are ground and then brewed with near-boiling water to produce the beverage known as coffee. It is one of the most popular drinks in the world.</p>
-                        </article>
-                        </div>
-                        <div class="col"><!--right side-->
-                            <img src="image/overview2.jpg" alt="overview2" style="width: 500px; height: 400px">
-                        </div>
-                    </div>
-                </div>
-            </section>
+</head>
+<body>
 
-            <section><!--break into three part-->
-                <div class="sec2">
-                    <h2 class="name">What we have</h2>
-                    <div class="row">
-                        <div class="col">
-                        <img src="image/threecoffee.jpg" alt="Coffee" style="width: 300px; height: 300px"/>
-                        <h3><a href="Coffee.html">The Types of Coffee</a></h3>
-                        </div>
-                        <div class="col">
-                        <img src="image/coffeebean.jpg" alt="coffeebean" style="width: 300px; height: 300px"/>
-                        <h3><a href="CofeeBean.html">The Types of Coffee Bean</a></h3>
-                        </div>
-                        <div class="col">
-                        <img src="image/coffeetool.jpg" alt="ways" style="width: 300px; height: 300px"/>
-                        <h3><a href="Ways.html">The Ways of Coffee Making</a></h3>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <footer class="footer">
-                <h3>Contact us</h3>
-                <p class="address">Changwen Li/ cli107@syr.edu / (315)960-6666</p>
-            </footer>
-        </main>
-    </body>
+	<div class="navs container">
+			<nav class="navbar navbar-default col-md-12 col-xs-12" role="navigation">
+			    <div class="container-fluid"> 
+			    <div class="navbar-header">
+			        <button type="button" class="navbar-toggle" data-toggle="collapse"
+			                data-target="#example-navbar-collapse">
+			            <span class="sr-only"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			        </button>
+			        <a class="navbar-brand" href="#"><span>Coffee</span></a>
+			    </div>
+			    <div class="collapse navbar-collapse" id="example-navbar-collapse">
+			        <ul class="nav navbar-nav">
+			            <li><a href="index.html" class="active">Home</a></li>
+			            <li><a href="Coffee.html">Coffee</a></li>
+			            <li><a href="CoffeeBean.html">Coffee Bean</a></li>
+			            <li><a href="Ways.html">Ways</a></li>    
+			        </ul>
+			    </div>
+			    </div>
+			</nav>
+			
+	</div>
+	<div>
+		<a href="javaScript:;"><img src="images/banner.jpg" class="imga" alt=""></a>
+	</div>
+	<div class="overview container">
+		<div class="row">
+			<div class="col-xs-12 col-md-7 left">
+				<div class="tit">
+					<h2>Overview</h2>
+				</div>
+				<p>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species. The genus Coffea is native to tropical Africa (specifically having its origin in Ethiopia and Sudan) and Madagascar, the Comoros, Mauritius, and Réunion in the Indian Ocean. Coffee plants are now cultivated in over 70 countries. Once ripe, coffee berries are picked, processed, and dried. Dried coffee seeds are roasted to varying degrees, depending on the desired flavor. Roasted beans are ground and then brewed with near-boiling water to produce the beverage known as coffee. It is one of the most popular drinks in the world.</p>
+			</div>
+			<div class="col-xs-12 col-md-5 right">
+				<img src="images/overview2.jpg" class="imgb" alt="">
+			</div>
+		</div>
+	</div>
+	<div class="course container">
+		<div class="tit">
+			<h2>What we have</h2>
+		</div>
+		<div class="row">
+			
+			<div class="col-xs-12 col-md-4">
+				<div class="img">
+					<a href="Coffee.html"><img src="images/threecoffee.jpg" class="imgb" alt=""></a>
+				</div>
+				<div class="cont">
+					<a href="Coffee.html" class="name">The Types of Coffee</a>
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<div class="img">
+					<a href="CoffeeBean.html"><img src="images/coffeebean.jpg" class="imgb" alt=""></a>
+				</div>
+				<div class="cont">
+					<a href="CoffeeBean.html" class="name">The Types of Coffee Bean</a>
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-4">
+				<div class="img">
+					<a href="Ways.html"><img src="images/coffeetool.jpg" class="imgb" alt=""></a>
+				</div>
+				<div class="cont">
+					<a href="Ways.html" class="name">The Ways of Coffee Making</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="row ft">
+				<div class="col-md-12 col-xs-12">
+					<h4>Contact us</h4>
+					<p>Changwen Li/ cli107@syr.edu / (315)960-6666</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
 </html>
